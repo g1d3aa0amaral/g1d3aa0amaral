@@ -1,26 +1,56 @@
-# Gideão Amaral | Cloud DBA & Data Engineering 🚀
+# Gideão Amaral | Cloud DBA & Data Engineering 
 
 **Critical Systems Engineer (18+ years) | High Availability & Multi-Cloud Specialist**
 
-Sou um profissional com 18 anos de experiência em Engenharia de Sistemas Críticos e Automação (O&G e Energia). Atualmente, aplico esse expertise em resiliência e alta disponibilidade na administração e arquitetura de ambientes de Banco de Dados em Nuvem (Azure e OCI).
+[English](#english) | [Português](#português)
 
 ---
 
-### 🛠️ Featured Project / Projeto em Destaque
+<a name="english"></a>
+## 🇺🇸 English
 
+I am a professional with 18 years of experience in Critical Systems Engineering and Automation (O&G and Energy), focused on High Availability (HA), Multi-Protocol Integration, and Infrastructure Optimization. Currently, I apply this expertise in resilience and performance to the administration and architecture of Cloud Database environments (Azure and OCI).
+
+### Featured Project
 #### [Thermoelectric DB Integration & Migration](https://github.com/g1d3aa0amaral/oracle-sqlserver-integration-thermoelectric)
 **Heterogeneous Integration (Oracle & SQL Server) | 1M+ Records | Performance Tuning**
-* **v1 (Current):** On-premise hybrid setup (Linux/Windows/Docker) via Oracle Gateway.
-* **v2 (Planned):** Full Cloud Migration to OCI Autonomous & Azure SQL DB.
+* **v1 (Current):** Hybrid on-premise setup (Linux/Windows/Docker) via Oracle Gateway, 1M records mass ingestion, and performance tuning.
+* **v2 (Planned):** Lift-and-shift migration to Cloud managed services (OCI Autonomous & Azure SQL DB).
+
+📂 **Check my [Full Project Portfolio](https://github.com/g1d3aa0amaral/portfolio)** for details on SCADA Architecture (ISA-95) and Industrial Network Design.
 
 ---
 
-### 🧰 Tech Stack
-- **Databases:** Oracle (19c, PL/SQL, Tuning), SQL Server (T-SQL).
-- **Cloud:** OCI, Azure.
-- **Data Flow:** Oracle Gateway, ETL/ELT, SSIS, Python.
-- **Infrastructure:** Linux, Network Engineering (ISA-95), High Availability (HA).
+<a name="português"></a>
+## 🇧🇷 Português
+
+Sou um profissional com 18 anos de experiência na Engenharia de Sistemas Críticos e Automação (O&G e Energia), com foco em Alta Disponibilidade (HA), Integração Multi-Protocolo e Otimização de Infraestrutura. Atualmente, aplico esse expertise em resiliência e performance na administração e arquitetura de ambientes de Banco de Dados em Nuvem (Azure e OCI).
+
+### Projeto em Destaque
+#### [Migração e Integração de BD Termelétrica](https://github.com/g1d3aa0amaral/oracle-sqlserver-integration-thermoelectric)
+**Integração Heterogênea (Oracle & SQL Server) | 1M+ Registros | Performance Tuning**
+* **v1 (Atual):** Setup híbrido on-premise (Linux/Windows/Docker) via Oracle Gateway, carga massiva de 1 milhão de registros e tuning de performance.
+* **v2 (Planejado):** Migração Lift-and-shift para serviços gerenciados em nuvem (OCI Autonomous & Azure SQL DB).
+
+📂 **Confira meu [Portfólio Completo de Projetos](https://github.com/g1d3aa0amaral/portfolio)** para detalhes sobre Arquitetura SCADA (ISA-95) e Design de Redes Industriais.
 
 ---
 
-📬 **Connect with me:** [LinkedIn](SEU_LINK_LINKEDIN) | [Portfolio Site (Optional)](SEU_LINK)
+### Tech Stack
+
+- ** Databases:** Oracle (19c, PL/SQL, Tuning), SQL Server (T-SQL).
+- ** Cloud:** Oracle Cloud Infrastructure (OCI), Microsoft Azure.
+- ** Integration:** Oracle Gateway (Heterogeneous Services), ETL/ELT, SSIS.
+- ** Infrastructure:** Linux Administration, Network Engineering (ISA-95), High Availability (HA).
+
+---
+
+### Stats
+![Gideão's GitHub stats](https://github-readme-stats.vercel.app/api?username=g1d3aa0amaral&show_icons=true&theme=radical)
+
+---
+
+**Connect with me / Conecte-se comigo:** [LinkedIn](https://www.linkedin.com/in/gideao-amaral/) | [GitHub Repositories](https://github.com/g1d3aa0amaral?tab=repositories)
+
+---
+*“A resiliência de um sistema é medida pela sua capacidade de manter a integridade sob pressão.”*
