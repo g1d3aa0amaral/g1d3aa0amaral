@@ -1,57 +1,60 @@
-# Gideão Amaral | Cloud DBA & Data Engineering 
+# Gideao Amaral
+### Senior OT & Industrial Cloud Data Specialist
 
-**Critical Systems Engineer (18+ years) | High Availability & Multi-Cloud Specialist**
-
-[English](#english) | [Português](#português)
-
----
-
-<a name="english"></a>
-## 🇺🇸 English
-
-I am a professional with 18 years of experience in Critical Systems Engineering and Automation (O&G and Energy), focused on High Availability (HA), Multi-Protocol Integration, and Infrastructure Optimization. Currently, I apply this expertise in resilience and performance to the administration and architecture of Cloud Database environments (Azure and OCI).
-
-### Featured Project
-#### [Thermoelectric DB Integration & Migration](https://github.com/g1d3aa0amaral/portfolio/tree/main/oracle-sqlserver-integration-thermoelectric)
-**Heterogeneous Integration (Oracle & SQL Server) | 1M+ Records | Performance Tuning**
-* **v1 (Current):** Hybrid on-premise setup (Linux/Windows/Docker) via Oracle Gateway, 1M records mass ingestion, and performance tuning.
-* **v2 (Ongoing):** Lift-and-shift migration to Cloud managed services (OCI Autonomous & Azure SQL DB).
-
-**Check my [Full Project Portfolio](https://github.com/g1d3aa0amaral/portfolio)** for details on SCADA Architecture (ISA-95) and Industrial Network Design.
+**End-to-End Industrial Data Lineage | Sensors & IIoT Telemetry to Multi-Cloud Platforms (AWS • Azure • OCI)**
 
 ---
 
-### Tech Stack
+I am a **Senior OT & Industrial Data Specialist** operating at the intersection of Operational Technology (OT), Field Instrumentation, Cyber-Physical Security, and Enterprise Cloud Data Infrastructure. Backed by **19 years of global hands-on experience across Singapore, China, Malaysia, and Brazil**, I specialize in architecting, securing, and managing the complete **Sensor-to-Cloud data lineage** in heavy industrial sectors including **Oil & Gas, Thermoelectric Power Generation, and Steel & Metallurgy**.
 
-- ** Databases:** Oracle (19c, PL/SQL, Tuning), SQL Server (T-SQL).
-- ** Cloud:** Oracle Cloud Infrastructure (OCI), Microsoft Azure.
-- ** Integration:** Oracle Gateway (Heterogeneous Services), ETL/ELT, SSIS.
-- ** Infrastructure:** Linux Administration, Network Engineering (ISA-95), High Availability (HA).
+My core domain spans physical field instrumentation (4-20mA/HART, RTDs, field transmitters), machinery automation, operational time-series databases (**AVEVA PI System**), **Industrial DMZ design (Purdue Level 3.5)**, cybersecurity boundary controls (**ISA-95, IEC 62443**), and modern Multi-Cloud Data Platforms (**AWS, Azure, OCI**).
 
 ---
 
-<a name="português"></a>
-## 🇧🇷 Português
+## 🌍 Global Footprint & Core Specializations
 
-Sou um profissional com 18 anos de experiência na Engenharia de Sistemas Críticos e Automação (O&G e Energia), com foco em Alta Disponibilidade (HA), Integração Multi-Protocolo e Otimização de Infraestrutura. Atualmente, aplico esse expertise em resiliência e performance na administração e arquitetura de ambientes de Banco de Dados em Nuvem (Azure e OCI).
-
-### Projeto em Destaque
-#### [Migração e Integração de BD Termelétrica](https://github.com/g1d3aa0amaral/portfolio/tree/main/oracle-sqlserver-integration-thermoelectric)
-**Integração Heterogênea (Oracle & SQL Server) | 1M+ Registros | Performance Tuning**
-* **v1 (Atual):** Setup híbrido on-premise (Linux/Windows/Docker) via Oracle Gateway, carga massiva de 1 milhão de registros e tuning de performance.
-* **v2 (Em Desenvolvimento):** Migração Lift-and-shift para serviços gerenciados em nuvem (OCI Autonomous & Azure SQL DB).
-
-**Confira meu [Portfólio Completo de Projetos](https://github.com/g1d3aa0amaral/portfolio)** para detalhes sobre Arquitetura SCADA (ISA-95) e Design de Redes Industriais.
+* **International Industry Experience:** Project execution, commissioning, and OT/IT integration across **Singapore, China, Malaysia, and Brazil**, serving critical offshore and onshore operations in Oil & Gas (FPSO/Topside), Thermoelectric Power Generation, and Steelmaking plants.
+* **Industrial IoT & Cyber-Physical Security:** End-to-end data tracing from physical field sensors to supervisory systems (SCADA/DCS) and **Industrial DMZs**. OPC UA namespace design, AVEVA PI System deployment (PIBufss, OPCInt), network micro-segmentation, and store-and-forward link resilience.
+* **Cloud Data Platforms & Lakehouses:** Near real-time IIoT streaming ingestion, Medallion Lakehouse Architecture (Bronze/Silver/Gold), distributed processing (PySpark/Databricks), Delta Lake, and dbt analytics engineering.
+* **Enterprise Database Administration (HA/DR):** Mission-critical database management, multi-cloud zero-downtime migrations, cross-cloud connectivity, and analytical data warehousing (AWS Redshift, Azure SQL, OCI Autonomous DB, Snowflake).
 
 ---
 
-### Tech Stack
+## 🎓 Education
 
-- ** Databases:** Oracle (19c, PL/SQL, Tuning), SQL Server (T-SQL).
-- ** Cloud:** Oracle Cloud Infrastructure (OCI), Microsoft Azure.
-- ** Integration:** Oracle Gateway (Heterogeneous Services), ETL/ELT, SSIS.
-- ** Infrastructure:** Linux Administration, Network Engineering (ISA-95), High Availability (HA).
+* **B.Sc. in Electrical Engineering**
+* **Bachelor in Science and Technology**
+* **Database Engineering** | *In Progress (Expected 2027)*
 
 ---
 
-**Connect with me / Conecte-se comigo:** [LinkedIn](https://www.linkedin.com/in/gideao-amaral-639335323) | [GitHub Repositories](https://github.com/g1d3aa0amaral?tab=repositories)
+## 🚀 Featured Industrial & Cloud Projects
+
+### 1. IIoT Data Pipeline & Industrial Reference Architecture (OT / Field Ingestion)
+**Key Terms:** Sensors, IIoT, Industrial DMZ, OPC UA, AVEVA PI System, IEC 62443, Purdue Model, Time-Series Data.
+* **The Challenge:** Safely extracting high-frequency IIoT telemetry from critical rotating assets (Baker Hughes gas turbines and compressors) while ensuring cyber-physical isolation between the factory floor (OT Level 2/3) and corporate network (IT Level 4).
+* **The Architecture:** Designed an end-to-end OT reference architecture based on the Purdue Model and **Industrial DMZ (Level 3.5)**. Built an asynchronous Python simulator generating realistic physical sensor workloads via structured OPC UA nodes, strict firewall conduit rule mapping (IEC 62443), and active Store-and-Forward buffering for satellite link resilience.
+* **Technical Value:** Demonstrates deep domain over OT topologies, network boundary controls, DMZ proxies, and industrial time-series data resilience.
+* 🔗 [Access Repository](./industrial-iiot-pipeline-fpso)
+
+### 2. Thermoelectric DB Migration to Multi-Cloud (Azure/OCI) | HA & Migration
+**Key Terms:** Industrial DB, High Availability (HA/DR), Thermoelectric Energy, Oracle, SQL Server, OCI, Azure.
+* **The Challenge:** Executing a zero-downtime lift-and-shift migration of legacy industrial operational databases from a thermoelectric power generation plant into managed multi-cloud environments.
+* **The Architecture:** Blueprint for migrating historical relational schemas into managed cloud engines (OCI Autonomous Database & Azure SQL Database). Designed secure ETL/ELT pipelines via Azure Data Factory and SSIS, enforcing cross-cloud high-availability and query performance tuning.
+* **Technical Value:** Proven experience in mission-critical database administration, multi-cloud interconnectivity, and zero-data-loss migration strategies.
+* 🔗 [Access Repository](./oracle-sqlserver-integration-thermoelectric)
+
+### 3. Industrial IoT Streaming & Medallion Lakehouse on AWS
+**Key Terms:** IIoT Streaming, AWS Kinesis, Databricks, PySpark, Delta Lake, dbt, Redshift, Medallion Architecture.
+* **The Challenge:** Ingesting, cleansing, and transforming continuous, high-frequency industrial sensor telemetry in near real-time for executive analytics and predictive maintenance models.
+* **The Architecture:** Modern streaming Lakehouse architecture built on AWS and Databricks. Features a Python producer simulating OPC UA payloads into AWS Kinesis, Serverless Lambda ingestion into S3 Bronze, PySpark cleansing and deduplication into Delta Lake Silver, and dbt dimensional modeling (Star Schema) into AWS Redshift Gold layer.
+* **Technical Value:** Hands-on mastery of modern Cloud Data Engineering, streaming micro-batches, automated data quality assertion tests, and analytical serving layers.
+* 🔗 [Access Repository](./industrial-streaming-lakehouse-aws)
+
+---
+
+## ⚡ Technical Stack Overview
+
+* **OT & Industrial Security:** Field Sensors (HART/RTD/4-20mA), OPC UA, AVEVA PI System (PI Data Archive, AF, Vision, Buffer), Purdue Model (Levels 0-4), Industrial DMZ (Level 3.5), ISA-95, IEC 62443.
+* **Cloud & Data Engineering:** Databricks, PySpark, Delta Lake, AWS Kinesis Data Streams, AWS Lambda, S3, dbt Core, Azure Data Factory.
+* **Databases & Data Warehouses:** AWS Redshift, OCI Autonomous Database, Oracle DB, Microsoft SQL Server, Azure SQL, Snowflake.
