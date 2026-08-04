@@ -35,21 +35,21 @@ My core domain spans physical field instrumentation (4-20mA/HART, RTDs, field tr
 * **The Challenge:** Safely extracting high-frequency IIoT telemetry from critical rotating assets (Baker Hughes gas turbines and compressors) while ensuring cyber-physical isolation between the factory floor (OT Level 2/3) and corporate network (IT Level 4).
 * **The Architecture:** Designed an end-to-end OT reference architecture based on the Purdue Model and **Industrial DMZ (Level 3.5)**. Built an asynchronous Python simulator generating realistic physical sensor workloads via structured OPC UA nodes, strict firewall conduit rule mapping (IEC 62443), and active Store-and-Forward buffering for satellite link resilience.
 * **Technical Value:** Demonstrates deep domain over OT topologies, network boundary controls, DMZ proxies, and industrial time-series data resilience.
-* 🔗 [Access Repository](./industrial-iiot-pipeline-fpso)
+* 🔗 [Access Repository](https://github.com/g1d3aa0amaral/portfolio/tree/main/01_industrial-iiot-pipeline-fpso)
 
 ### 2. Thermoelectric DB Migration to Multi-Cloud (Azure/OCI) | HA & Migration
 **Key Terms:** Industrial DB, High Availability (HA/DR), Thermoelectric Energy, Oracle, SQL Server, OCI, Azure.
 * **The Challenge:** Executing a zero-downtime lift-and-shift migration of legacy industrial operational databases from a thermoelectric power generation plant into managed multi-cloud environments.
 * **The Architecture:** Blueprint for migrating historical relational schemas into managed cloud engines (OCI Autonomous Database & Azure SQL Database). Designed secure ETL/ELT pipelines via Azure Data Factory and SSIS, enforcing cross-cloud high-availability and query performance tuning.
 * **Technical Value:** Proven experience in mission-critical database administration, multi-cloud interconnectivity, and zero-data-loss migration strategies.
-* 🔗 [Access Repository](./oracle-sqlserver-integration-thermoelectric)
+* 🔗 [Access Repository](https://github.com/g1d3aa0amaral/portfolio/tree/main/02_oracle-sqlserver-integration-thermoelectric)
 
 ### 3. Industrial IoT Streaming & Medallion Lakehouse on AWS
 **Key Terms:** IIoT Streaming, AWS Kinesis, Databricks, PySpark, Delta Lake, dbt, Redshift, Medallion Architecture.
 * **The Challenge:** Ingesting, cleansing, and transforming continuous, high-frequency industrial sensor telemetry in near real-time for executive analytics and predictive maintenance models.
 * **The Architecture:** Modern streaming Lakehouse architecture built on AWS and Databricks. Features a Python producer simulating OPC UA payloads into AWS Kinesis, Serverless Lambda ingestion into S3 Bronze, PySpark cleansing and deduplication into Delta Lake Silver, and dbt dimensional modeling (Star Schema) into AWS Redshift Gold layer.
 * **Technical Value:** Hands-on mastery of modern Cloud Data Engineering, streaming micro-batches, automated data quality assertion tests, and analytical serving layers.
-* 🔗 [Access Repository](./industrial-streaming-lakehouse-aws)
+* 🔗 [Access Repository](https://github.com/g1d3aa0amaral/portfolio/tree/main/03_industrial-streaming-lakehouse-aws)
 
 ---
 
